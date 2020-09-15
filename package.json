@@ -1,0 +1,22 @@
+{
+  "name": "hacker-next",
+  "version": "1.0.0",
+  "description": "A Hacker News Clone made with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "SET NODE_ENV=production & node server.js",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Pranta Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sw-precache-webpack-plugin": "^1.0.0"
+  }
+}
