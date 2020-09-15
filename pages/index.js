@@ -22,7 +22,7 @@ class Index extends React.Component {
         return { stories, page };
     }
 
-    
+
     render() {
         const { stories, page } = this.props;
         if (stories.length === 0) return <Error statusCode={503} />
